@@ -570,6 +570,16 @@
     }
   }
 
+  
+  @media (prefers-color-scheme: dark) {
+    .h0001-logo:not([src*="acik"]) {
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 8px;
+      box-sizing: content-box;
+    }
+  }
+
 
   
   .b0000 {
@@ -872,7 +882,7 @@
     justify-content: center;
     overflow: hidden;
     cursor: pointer;
-    background-image: url("/img/e3mp01/map.png?v=ursnp") !important;
+    background-image: url("/img/e3mp01/map.png?v=eqbxq") !important;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
