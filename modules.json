@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -51,14 +57,14 @@
         "bgcolor": "var(--mx-site-bg, #ffffff)",
         "bgcolorhover": "var(--mx-site-surface-2, #f1f1ee)",
         "welcomeText": {
-          "tr": "Hoşgeldiniz!",
+          "tr": "Hoş geldiniz!",
           "en": "Welcome!",
           "ar": "مرحبًا بك!"
         },
         "toplinks": {
-          "tr": "Kampanyalar|#|Sipariş Takibi|#|Yardım|#",
-          "en": "Campaigns|#|Order Tracking|#|Help|#",
-          "ar": "العروض|#|تتبع الطلب|#|المساعدة|#"
+          "tr": "Teslimat ve iade|/teslimat|Hakkımızda|/hakkimizda|İletişim|/iletisim",
+          "en": "Delivery and returns|/teslimat|About us|/hakkimizda|Contact|/iletisim",
+          "ar": "التسليم والاسترجاع|/teslimat|من نحن|/hakkimizda|اتصل بنا|/iletisim"
         },
         "searchPlaceholder": {
           "tr": "Ürün ara...",
@@ -123,95 +129,105 @@
       "data": [
         {
           "name": {
-            "tr": "Kuruyemiş",
-            "en": "Nuts",
-            "ar": "المكسرات"
+            "tr": "Ses",
+            "en": "Audio",
+            "ar": "الصوت"
           },
-          "url": "#",
+          "url": "/ses",
           "children": [
             {
               "name": {
-                "tr": "Fındık",
-                "en": "Hazelnut",
-                "ar": "البندق"
+                "tr": "Kablosuz kulaklık",
+                "en": "Wireless headphones",
+                "ar": "سماعات لاسلكية"
               },
-              "url": "#"
+              "url": "/kablosuz-kulaklik"
             },
             {
               "name": {
-                "tr": "Badem",
-                "en": "Almond",
-                "ar": "اللوز"
+                "tr": "Taşınabilir hoparlör",
+                "en": "Portable speaker",
+                "ar": "مكبر صوت محمول"
               },
-              "url": "#"
+              "url": "/tasinabilir-hoparlor"
+            },
+            {
+              "name": {
+                "tr": "Ses seti: kulaklık + hoparlör",
+                "en": "Audio set: headphones + speaker",
+                "ar": "طقم صوت: سماعات + مكبر صوت"
+              },
+              "url": "/ses-seti-kulaklik-hoparlor"
             }
           ]
         },
         {
           "name": {
-            "tr": "Yöresel Ürünler",
-            "en": "Local Products",
-            "ar": "منتجات محلية"
+            "tr": "Giyilebilir",
+            "en": "Wearables",
+            "ar": "القابلة للارتداء"
           },
-          "url": "#",
+          "url": "/giyilebilir",
           "children": [
             {
               "name": {
-                "tr": "Pekmez",
-                "en": "Molasses",
-                "ar": "دبس"
+                "tr": "Akıllı saat",
+                "en": "Smartwatch",
+                "ar": "ساعة ذكية"
               },
-              "url": "#"
+              "url": "/akilli-saat"
             },
             {
               "name": {
-                "tr": "Tereyağı",
-                "en": "Butter",
-                "ar": "الزبدة"
+                "tr": "Akıllı bileklik",
+                "en": "Fitness band",
+                "ar": "سوار لياقة ذكي"
               },
-              "url": "#"
+              "url": "/akilli-bileklik"
             }
           ]
         },
         {
           "name": {
-            "tr": "Kuru Meyve",
-            "en": "Dried Fruit",
-            "ar": "الفواكه المجففة"
+            "tr": "Bilgisayar ve aksesuar",
+            "en": "Computers and accessories",
+            "ar": "الحواسيب والإكسسوارات"
           },
-          "url": "#"
-        },
-        {
-          "name": {
-            "tr": "Yeni Ürünler",
-            "en": "New Products",
-            "ar": "منتجات جديدة"
-          },
-          "url": "#"
-        },
-        {
-          "name": {
-            "tr": "Lokum",
-            "en": "Turkish Delight",
-            "ar": "راحة الحلقوم"
-          },
-          "url": "#"
-        },
-        {
-          "name": {
-            "tr": "Kahve",
-            "en": "Coffee",
-            "ar": "القهوة"
-          },
-          "url": "#"
-        },
-        {
-          "name": {
-            "tr": "Draje",
-            "en": "Dragee",
-            "ar": "الدراجيه"
-          },
-          "url": "#"
+          "url": "/bilgisayar",
+          "children": [
+            {
+              "name": {
+                "tr": "İnce dizüstü bilgisayar 14\"",
+                "en": "Slim laptop 14\"",
+                "ar": "حاسوب محمول نحيف 14 بوصة"
+              },
+              "url": "/ince-dizustu-bilgisayar"
+            },
+            {
+              "name": {
+                "tr": "Powerbank 20.000 mAh",
+                "en": "Power bank 20,000 mAh",
+                "ar": "شاحن متنقل 20,000 مللي أمبير"
+              },
+              "url": "/powerbank-20000"
+            },
+            {
+              "name": {
+                "tr": "Mekanik klavye",
+                "en": "Mechanical keyboard",
+                "ar": "لوحة مفاتيح ميكانيكية"
+              },
+              "url": "/mekanik-klavye"
+            },
+            {
+              "name": {
+                "tr": "Uzatılmış garanti +1 yıl",
+                "en": "Extended warranty +1 year",
+                "ar": "ضمان ممتد +1 سنة"
+              },
+              "url": "/uzatilmis-garanti-1-yil"
+            }
+          ]
         }
       ],
       "index": 1
@@ -372,9 +388,9 @@
           "ar": "أضف إلى السلة"
         },
         "soldOutText": {
-          "tr": "Tukendi",
+          "tr": "Tükendi",
           "en": "Sold Out",
-          "ar": "نفدت الكمية"
+          "ar": "نفد"
         },
         "newText": {
           "tr": "Yeni",
@@ -382,39 +398,39 @@
           "ar": "جديد"
         },
         "saleText": {
-          "tr": "Indirim",
+          "tr": "İndirim",
           "en": "Sale",
           "ar": "تخفيض"
         },
         "search": true,
         "sort": true,
         "searchLabel": {
-          "tr": "Urun ara",
+          "tr": "Ürün ara",
           "en": "Search products",
           "ar": "ابحث عن منتج"
         },
         "searchPlaceholder": {
-          "tr": "Urun adi veya kategori…",
+          "tr": "Ürün adı veya kategori…",
           "en": "Product name or category…",
           "ar": "اسم المنتج أو الفئة…"
         },
         "sortLabel": {
-          "tr": "Sirala",
+          "tr": "Sırala",
           "en": "Sort by",
           "ar": "ترتيب حسب"
         },
         "sortDefault": {
-          "tr": "Onerilen siralama",
+          "tr": "Önerilen sıralama",
           "en": "Recommended",
           "ar": "الترتيب الموصى به"
         },
         "sortPriceAsc": {
-          "tr": "Fiyat: dusukten yuksege",
+          "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
           "ar": "السعر: من الأقل إلى الأعلى"
         },
         "sortPriceDesc": {
-          "tr": "Fiyat: yuksekten dusuge",
+          "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
           "ar": "السعر: من الأعلى إلى الأقل"
         },
@@ -424,7 +440,7 @@
           "ar": "الأحدث أولًا"
         },
         "noResult": {
-          "tr": "Aramaniza uygun urun bulunamadi.",
+          "tr": "Aramanıza uygun ürün bulunamadı.",
           "en": "No products match your search.",
           "ar": "لم يتم العثور على منتجات مطابقة لبحثك."
         },
@@ -483,7 +499,7 @@
           "text": {
             "tr": "Kategorilerden ürününüzü seçin; özellik ve fiyatı net görürsünüz.",
             "en": "Pick your product from the categories; specs and price are clear.",
-            "ar": "اختر منتجك من الفوات؛ المواصفات والسعر واضحان."
+            "ar": "اختر منتجك من الفئات؛ المواصفات والسعر واضحة."
           }
         },
         {
@@ -496,7 +512,7 @@
           "text": {
             "tr": "Sepeti onaylayın, ödeme adımını tamamlayın.",
             "en": "Confirm the cart and complete the checkout step.",
-            "ar": "أعد السلة وأتمم خطوة الدفع."
+            "ar": "أكّد السلة وأتمم خطوة الدفع."
           }
         },
         {
@@ -522,7 +538,7 @@
           "text": {
             "tr": "Ürün kapınıza ulaşır; iade süresi boyunca koşullar açıktır.",
             "en": "The product reaches your door; the return window is clear.",
-            "ar": "يصلك المنتج وباب الرجوع واضحًا."
+            "ar": "يصلك المنتج وتبقى شروط الاسترجاع واضحة طوال المدة."
           }
         }
       ],

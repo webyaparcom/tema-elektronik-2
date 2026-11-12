@@ -26,7 +26,7 @@
     "vwwaag"
   ],
   "headtop": "",
-  "headbottom": "<style id=\"mx-tema-menu\">:root{--mxe-cd9624:var(--mx-site-primary);--mxe-238b23:var(--mx-site-primary);--mxe-228b22:var(--mx-site-primary);--mxe-fef7e7:var(--mx-site-surface-2);--mxe-e0dccb:color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent);--mxe-eee:var(--mx-site-surface-2);--mxe-f7f7f7:var(--mx-site-surface);--mxe-ccc:color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent);--mxe-333:var(--mx-site-text);--mxe-on:var(--mx-site-primary-contrast)}</style>",
+  "headbottom": "<style id=\"mx-tema-menu\">:root{--mxe-cd9624:var(--mx-site-primary);--mxe-238b23:var(--mx-site-primary);--mxe-228b22:var(--mx-site-primary);--mxe-fef7e7:var(--mx-site-surface-2);--mxe-e0dccb:color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent);--mxe-eee:var(--mx-site-surface-2);--mxe-f7f7f7:var(--mx-site-surface);--mxe-ccc:color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent);--mxe-333:var(--mx-site-text);--mxe-on:var(--mx-site-primary-contrast)}</style><style>@media (max-width:768px){nav[class$=\"-main-menu\"]{display:flex!important;flex-wrap:wrap;justify-content:center;gap:0 6px;height:auto!important;padding:4px 0 8px}nav[class$=\"-main-menu\"] a{font-weight:600;font-size:14px;padding:8px 10px}}</style>",
   "colors": {
     "lite": [
       {
