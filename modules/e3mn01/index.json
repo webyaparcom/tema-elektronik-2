@@ -2,12 +2,15 @@
   "name": "Menü E-Ticaret",
   "desing": {
     "logo": "logo.png",
+    "logoimg": "",
     "color": "#ffffff",
     "colorhover": "#123763",
     "height": "50px",
     "urlsepet": "sepet",
     "bgcolor": "#1e3046",
     "bgcolorhover": "#123763",
+    "catbg": "var(--mxe-238b23, #1e7a1e)",
+    "catcolor": "var(--mxe-on, #ffffff)",
     "welcomeText": {
       "tr": "Hoşgeldiniz!",
       "en": "Welcome!"
@@ -64,7 +67,7 @@
     }
   },
   "category": "menu",
-  "description": "Responsive web sitesi navigasyon menüsü. Logo, sayfa linkleri ve mobil uyumlu hamburger menü içerir.  web sitelerinde 0 projede kullanılır. PLAN-PRO F3: giriş linki data-mx-uye-goster=\"misafir\", Hesabım + Çıkış data-mx-uye-goster=\"giris\" (MxStore.uye), sepet ikonunda data-mx-sepet-sayi rozeti (MxStore.sepet; 0 iken gizli).",
+  "description": "Responsive web sitesi navigasyon menüsü. Logo, sayfa linkleri ve mobil uyumlu hamburger menü içerir.  web sitelerinde 0 projede kullanılır. PLAN-PRO F3: giriş linki data-mx-uye-goster=\"misafir\", Hesabım + Çıkış data-mx-uye-goster=\"giris\" (MxStore.uye), sepet ikonunda data-mx-sepet-sayi rozeti (MxStore.sepet; 0 iken gizli). Kategori düğmesi + ana menü hover zemini desing.catbg / yazısı catcolor (varsayılan tema jetonu --mxe-238b23 / --mxe-on; jetonsuz yedek #1e7a1e ≥4.5:1). Logo: desing.logoimg / logoimgs {dil: dosya} header'a özel (boşsa desing.logo).",
   "data": [
     {
       "name": {
@@ -148,7 +151,7 @@
       "url": "#"
     }
   ],
-  "version": "1.1.0",
+  "version": "1.2.0",
   "veri": {
     "statik": true,
     "dinamik": true,

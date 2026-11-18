@@ -266,8 +266,10 @@
 
   .modulex-cat-btn {
     height: 44px;
-    background: var(--mxe-238b23, #238b23);
-    color: var(--mxe-on, #fff);
+    /* 16 Kas 2026 (mcp:webmaker/20261116-113333-ovs8): zemin/yazi desing catbg/catcolor; varsayilan tema jetonu ayni,
+       jetonsuz yedek #238b23 (beyazla 4.39:1) -> #1e7a1e (5.44:1) */
+    background: --catbg--;
+    color: --catcolor--;
     border: none;
     padding: 10px 32px;
     border-radius: 5px 5px 0 0;
@@ -429,8 +431,8 @@
 
   .modulex-main-menu a:hover,
   .modulex-main-menu a:focus {
-    background: var(--mxe-238b23, #238b23);
-    color: var(--mxe-on, #fff);
+    background: --catbg--;
+    color: --catcolor--;
     border-radius: 5px;
     text-decoration: none;
   }
